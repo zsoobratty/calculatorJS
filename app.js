@@ -83,7 +83,3 @@ const calculateSum = () => {
     operation = undefined
     previousOperandText.innerText = ''
 }
-
-const handleDisplay = () => {
-
-}
