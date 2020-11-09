@@ -5,5 +5,5 @@
 - Enjoy calculating
 
 ## How it looks:
-<img src='./assets/Calculator.png'>
-<img src='./assets/Calculated.png'>
+<img src='./assets/Calculator.png' height='600px' width='400px'>
+<img src='./assets/Calculated.png' height='600px' width='400px'>
