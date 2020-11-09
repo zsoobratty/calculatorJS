@@ -28,13 +28,17 @@ equalsButton.addEventListener('click', () => {
     calculateSum()
 })
 
+deleteButton.addEventListener('click', () => {
+    handleDelete()
+})
+
 const handleClear = () => {
     previousOperandText.innerText = ''
     currentOperandText.innerText = ''
 }
 
 const handleDelete = () => {
-    
+    currentOperandText.innerText = currentOperandText.innerText.slice(0, -1)
 }
 
 const handleNumber = (button) => {
@@ -43,12 +47,12 @@ const handleNumber = (button) => {
 }
 
 const handleOperation = (operation) => {
-    selectedOperation = operation
     if(currentOperandText.innerText === '') return
     if(previousOperandText !== '') {
         calculateSum()
     }
-    previousOperandText.innerText = currentOperandText.innerText
+    selectedOperation = operation
+    previousOperandText.innerText = `${currentOperandText.innerText} ${selectedOperation}`
     currentOperandText.innerText = ''
 }
 
