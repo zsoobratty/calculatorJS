@@ -1,9 +1,9 @@
-Calculator built with HTML, CSS & JS
+# Calculator built with HTML, CSS & JS
 
-To run -   
-Open index.html  
-Enjoy calculating
+## To run -   
+- Open index.html  
+- Enjoy calculating
 
-How it looks:
+## How it looks:
 <img src='./assets/Calculator.png'>
 <img src='./assets/Calculated.png'>
