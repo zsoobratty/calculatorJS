@@ -1,7 +1,7 @@
 Calculator built with HTML, CSS & JS
 
-To run - 
-Open index.html
+To run -   
+Open index.html  
 Enjoy calculating
 
 How it looks:
